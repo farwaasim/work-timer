@@ -1,0 +1,21 @@
+# Personal runtime data — never commit
+timer_state.json
+daily_log.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# PyInstaller (if you ever build an .exe)
+build/
+dist/
+*.spec
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
