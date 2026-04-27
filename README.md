@@ -50,7 +50,7 @@ A PyInstaller-built executable is blocked on Windows 11 by Smart App Control wit
 | `work_timer.py` | Main application |
 | `icon.ico` | Multi-resolution icon (16-256 px) |
 | `WorkTimer.bat` | Launcher invoking `pythonw` |
-| `WorkTimer_Technical_Report.docx` | Detailed technical report covering design and issues encountered |
+| `WorkTimer_Technical_Report.pdf` | Detailed technical report covering design and issues encountered |
 
 User data lives at `%APPDATA%\WorkTimer\` (`timer_state.json` and `daily_log.json`), created automatically on first run.
 
@@ -62,7 +62,7 @@ User data lives at `%APPDATA%\WorkTimer\` (`timer_state.json` and `daily_log.jso
 - **Win32 `GetLastInputInfo`** via `ctypes` for idle detection (no extra packages).
 - **Monotonic-clock-anchored** timing model resilient to system clock changes.
 
-See `WorkTimer_Technical_Report.docx` for full details on system design, issues encountered during development, and resolutions.
+See `WorkTimer_Technical_Report.pdf` for full details on system design, issues encountered during development, and resolutions.
 
 ## Known Limitations
 
